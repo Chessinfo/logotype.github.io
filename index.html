@@ -1,513 +1,439 @@
-<!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://fonts.googleapis.com/css?family=PT+Serif:400,700|Roboto:400,500&display=swap&subset=cyrillic"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/fonts.css" />
-    <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
-    <link rel="stylesheet" href="css/slick.css" />
-    <link rel="stylesheet" href="css/jquery.formstyler.css" />
-    <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/media.css" />
-    <title>Logotype</title>
-  </head>
-  <body>
-    <header class="header">
-      <div class="header__top">
-        <div class="container">
-          <div class="header__contacts">
-            <a class="header__phone" href="tel:380963092145"
-              >+38 (096) 309 21 45</a
-            >
-            <a class="header__email" href="#">layout585@gmail.com </a>
-            <a
-              class="header__btn"
-              data-fancybox
-              data-src="#modal"
-              href="javascript:;"
-              href="#"
-              >Бесплатная консультация</a
-            >
-          </div>
-        </div>
-      </div>
-      <div class="header__content">
-        <div class="container">
-          <div class="header__content-inner">
-            <div class="header__logo">
-              <a href="#">
-                <img src="./img/logo.png" alt="" />
-              </a>
-            </div>
-            <nav class="menu">
-              <div class="header__btn-menu">
-                <span class="icon-bars"></span>
-              </div>
-              <ul>
-                <li><a href="#">Главная</a></li>
-                <li><a href="#">О компании</a></li>
-                <li><a href="#">Услуги</a></li>
-                <li><a href="#">Контакты</a></li>
-              </ul>
-            </nav>
-          </div>
-        </div>
-      </div>
-    </header>
+<div id="maincontent">
+<h3><a href="https://css-tricks.com/#flexbox-background">Фон</a></h3>
+<div class="wp-block-group collapsible-section" id="flexbox-background">
+<div class="wp-block-group__inner-container">
 
-    <section
-      class="slider"
-      style="background-image: url(./img/slider-fon.jpg);"
-    >
-      <div class="container">
-        <div class="slider__inner">
-          <div class="slider__item">
-            <div class="slider__item-content">
-              <div class="slider__title">
-                КОМПЛЕКСНОЕ ЗАКРЫТИЕ ПРЕДПРИЯТИЯ
-              </div>
-              <div class="slider__text">
-                Полное прекращение существования юридического лица с сохранением
-                легальности всей предыдущей деятельности.
-              </div>
-              <a
-                data-fancybox
-                data-src="#modal"
-                href="javascript:;"
-                href="#"
-                class="slider__btn default-btn"
-              >
-                Оставить заявку
-              </a>
-            </div>
-          </div>
-          <div class="slider__item">
-            <div class="slider__item-content">
-              <div class="slider__title">
-                КОМПЛЕКСНОЕ ЗАКРЫТИЕ ПРЕДПРИЯТИЯ
-              </div>
-              <div class="slider__text">
-                Полное прекращение существования юридического лица с сохранением
-                легальности всей предыдущей деятельности.
-              </div>
-              <a
-                data-fancybox
-                data-src="#modal"
-                href="javascript:;"
-                href="#"
-                class="slider__btn default-btn"
-              >
-                Оставить заявку
-              </a>
-            </div>
-          </div>
-          <div class="slider__item">
-            <div class="slider__item-content">
-              <div class="slider__title">
-                КОМПЛЕКСНОЕ ЗАКРЫТИЕ ПРЕДПРИЯТИЯ
-              </div>
-              <div class="slider__text">
-                Полное прекращение существования юридического лица с сохранением
-                легальности всей предыдущей деятельности.
-              </div>
-              <a
-                data-fancybox
-                data-src="#modal"
-                href="javascript:;"
-                href="#"
-                class="slider__btn default-btn"
-              >
-                Оставить заявку
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+ <code>Flexbox Layout</code> (Гибкая коробка) модуль (<a href="https://www.w3.org/TR/css-flexbox/">Рекомендация кандидата W3C</a> по состоянию на октябрь 2017 года) нацелен на обеспечение более эффективного способа размещения, выравнивания и распределения пространства между элементами в контейнере, даже когда их размер неизвестен и / или является динамическим (таким образом, слово «гибкий»).
 
-    <section class="services">
-      <div class="container">
-        <div class="services__top">
-          <div class="services__title-box">
-            <div class="services__title">
-              Наши Услуги
-            </div>
-            <div class="services__tetx">
-              Комплексный подход к вашему вопросу, своевременная правовую
-              помощь, представление интересов во всех судебных инстанциях.
-            </div>
-          </div>
-          <div class="services__btn">
-            <a href="#">
-              Показать все услуги
-            </a>
-          </div>
-        </div>
-        <div class="services__items">
-          <div class="services__item">
-            <img src="img/Shape-1.png" alt="" />
-            <div class="services__item-title">Банкротство и ликвидация</div>
-            <div class="services__item-text">
-              Полное прекращение существования юридического лица с сохранением
-              легальности всей предыдущей деятельности
-            </div>
-            <div class="services__item-btn">
-              <a class="services__item-link" href="#">Подробнее</a>
-              <a
-                data-fancybox
-                data-src="#modal"
-                href="javascript:;"
-                href="#"
-                class="slider__btn default-btn"
-              >
-                Заказать
-              </a>
-            </div>
-          </div>
-          <div class="services__item">
-            <img src="img/Shape-2.png" alt="" />
-            <div class="services__item-title">Адвокатское сопровождение</div>
-            <div class="services__item-text">
-              Мы гарантируем полное профессиональное обслуживание клиентов в
-              заявленных сферах деятельности и соблюдение конфиденциальности.
-            </div>
-            <div class="services__item-btn">
-              <a class="services__item-link" href="#">Подробнее</a>
-              <a
-                data-fancybox
-                data-src="#modal"
-                href="javascript:;"
-                href="#"
-                class="slider__btn default-btn"
-              >
-                Заказать
-              </a>
-            </div>
-          </div>
-          <div class="services__item">
-            <img src="img/Shape-3.png" alt="" />
-            <div class="services__item-title">Налоговый аудит</div>
-            <div class="services__item-text">
-              Налоговый аудит проводят перед проведением налоговых проверок; при
-              оценке возможных налоговых рисков; при оптимизации
-              налогообложения.
-            </div>
-            <div class="services__item-btn">
-              <a class="services__item-link" href="#">Подробнее</a>
-              <a
-                data-fancybox
-                data-src="#modal"
-                href="javascript:;"
-                href="#"
-                class="slider__btn default-btn"
-              >
-                Заказать
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+Основная идея гибкого макета состоит в том, чтобы дать контейнеру возможность изменять ширину / высоту его элементов (и порядок), чтобы наилучшим образом заполнить доступное пространство (в основном, для размещения на всех типах устройств отображения и размеров экрана). Гибкий контейнер расширяет элементы, чтобы заполнить доступное свободное пространство, или сжимает их, чтобы предотвратить переполнение.
 
-    <section class="about" style="background-image: url(./img/about-fon.jpg);">
-      <div class="container">
-        <div class="about__inner">
-          <div class="about__title">О компании</div>
-          <div class="about__text">
-            Компания специализируется на оказании услуг в сфере корпоративного
-            права, налогового консалтинга, представительства в судах, ликвидации
-            и банкротства предприятий. На сегодняшний день, коллектив компании
-            объединяет высокопрофессиональных экспертов имеющих специализации в
-            отдельных областях права.
-          </div>
-          <a href="#" class="about__btn default-btn">
-            Узнать больше
-          </a>
-        </div>
-      </div>
-    </section>
+Наиболее важно то, что макет flexbox не зависит от направления, в отличие от обычных макетов (блок на вертикальной основе и встроенный на горизонтальной основе). Хотя они хорошо работают для страниц, им не хватает гибкости (без каламбура) для поддержки больших или сложных приложений (особенно когда речь идет об изменении ориентации, изменении размера, растяжении, сжатии и т. Д.).
 
-    <section class="form">
-      <div class="container">
-        <div class="form__inner">
-          <div class="form__content">
-            <div class="form__title-box">
-              <div class="form__title">
-                Получить Консультацию
-              </div>
-              <div class="form-tetx">
-                Комплексный подход к вашему вопросу, своевременная правовую
-                помощь, представление интересов во всех судебных инстанциях.
-              </div>
-            </div>
-            <div class="form__box">
-              <form>
-                <div class="form__box-inner">
-                  <div class="form__box-left">
-                    <label for="">
-                      E-mail
-                      <input type="text" />
-                    </label>
-                    <label for="">
-                      Контактный телефон
-                      <input type="text" />
-                    </label>
-                    <label for="">
-                      ФИО
-                      <input type="text" />
-                    </label>
-                    <label for="">
-                      Тема вопроса
-                      <select>
-                        <option>----------</option>
-                        <option>----------</option>
-                        <option>----------</option>
-                        <option>----------</option>
-                      </select>
-                    </label>
-                  </div>
-                  <div class="form__box-right">
-                    <label for="">
-                      Сообщение
-                      <textarea></textarea>
-                    </label>
-                    <button class="default-btn" type="submit">
-                      Получить консультацию
-                    </button>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+<strong>Замечания:</strong> Макет Flexbox наиболее подходит для компонентов приложения и небольших макетов, в то время как <a href="https://css-tricks.com/snippets/css/complete-guide-grid/">сетка</a> макет предназначен для крупномасштабных макетов.
 
-    <section
-      class="advantages"
-      style="background-image: url(./img/advantages-fon.jpg);"
-    >
-      <div class="container">
-        <div class="advantages__inner">
-          <div class="advantages-item">
-            <div class="advantages__title">
-              Десятки добровольных ликвидаций ежемесячно
-            </div>
-            <div class="advantages__text">
-              Мы умеем минимизировать все риски в процессе добровольной
-              ликвидации юридических лиц.
-            </div>
-          </div>
-          <div class="advantages-item">
-            <div class="advantages__title">
-              Отличное знание законов в сфере банкротства
-            </div>
-            <div class="advantages__text">
-              Позволяют нам эффективно отстаивать как интересы кредиторов, так и
-              интересы собственников проблемной организации.
-            </div>
-          </div>
-          <div class="advantages-item">
-            <div class="advantages__title">
-              Большой опыт сопровождения банкротства
-            </div>
-            <div class="advantages__text">
-              Мы обладаем большим опытом сопровождения процедур банкротства
-              предприятий.
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+</div>
+</div>
+<h3><a href="https://css-tricks.com/#flexbox-basics">Основы и терминология</a></h3>
+<div class="wp-block-group collapsible-section" id="flexbox-basics">
+<div class="wp-block-group__inner-container">
 
-    <section class="news">
-      <div class="container">
-        <div class="news__top">
-          <div class="news__title-box">
-            <div class="news__title">
-              Новости Компании
-            </div>
-            <div class="news__tetx">
-              Комплексный подход к вашему вопросу, своевременная правовую
-              помощь, представление интересов во всех судебных инстанциях.
-            </div>
-          </div>
-          <div class="news__btn">
-            <a href="#">
-              Открыть все новости
-            </a>
-          </div>
-        </div>
-        <div class="news__inner">
-          <div class="news__slider">
-            <div class="news__slider-inner">
-              <div class="news__slider-item">
-                <div class="news__slider-title">
-                  Банкротство и ликвидация предприятия в Украине
-                </div>
-                <div class="news__slider-text">
-                  «На сегодняшний день, коллектив компании объединяет
-                  высокопрофессиональных экспертов имеющих специализации в
-                  отдельных областях права. На сегодняшний день, коллектив
-                  компании объединяет высокопрофессиональных экспертов имеющих
-                  специализации в отдельных областях права. На сегодняшний день,
-                  коллектив компании объединяет высокопрофессиональных экспертов
-                  имеющих специализации в отдельных областях права...»
-                </div>
-                <div class="news__slider-author">
-                  Андрей Ворошилов, генеральный директор компании Bankom
-                </div>
-              </div>
-              <div class="news__slider-item">
-                <div class="news__slider-title">
-                  Банкротство и ликвидация предприятия в Украине
-                </div>
-                <div class="news__slider-text">
-                  «На сегодняшний день, коллектив компании объединяет
-                  высокопрофессиональных экспертов имеющих специализации в
-                  отдельных областях права. На сегодняшний день, коллектив
-                  компании объединяет высокопрофессиональных экспертов имеющих
-                  специализации в отдельных областях права. На сегодняшний день,
-                  коллектив компании объединяет высокопрофессиональных экспертов
-                  имеющих специализации в отдельных областях права...»
-                </div>
-                <div class="news__slider-author">
-                  Андрей Ворошилов, генеральный директор компании Bankom
-                </div>
-              </div>
-              <div class="news__slider-item">
-                <div class="news__slider-title">
-                  Банкротство и ликвидация предприятия в Украине
-                </div>
-                <div class="news__slider-text">
-                  «На сегодняшний день, коллектив компании объединяет
-                  высокопрофессиональных экспертов имеющих специализации в
-                  отдельных областях права. На сегодняшний день, коллектив
-                  компании объединяет высокопрофессиональных экспертов имеющих
-                  специализации в отдельных областях права. На сегодняшний день,
-                  коллектив компании объединяет высокопрофессиональных экспертов
-                  имеющих специализации в отдельных областях права...»
-                </div>
-                <div class="news__slider-author">
-                  Андрей Ворошилов, генеральный директор компании Bankom
-                </div>
-              </div>
-            </div>
-          </div>
-          <a href="#" class="news__blog">
-            <div class="news__images">
-              <img src="./img/news-1.jpg" alt="" />
-              <div class="news__date">
-                03.04
-              </div>
-            </div>
-            <div class="news__blog-title">
-              Новость компании
-            </div>
-            <div class="news__blog-text">
-              На сегодняшний день, коллектив компании объединяет
-              высокопрофессиональных экспертов имеющих специализации в отдельных
-              областях права...»
-            </div>
-          </a>
-          <a href="#" class="news__blog">
-            <div class="news__images">
-              <img src="./img/news-2.jpg" alt="" />
-              <div class="news__date">
-                03.04
-              </div>
-            </div>
-            <div class="news__blog-title">
-              Новость компании
-            </div>
-            <div class="news__blog-text">
-              На сегодняшний день, коллектив компании объединяет
-              высокопрофессиональных экспертов имеющих специализации в отдельных
-              областях права...»
-            </div>
-          </a>
-        </div>
-      </div>
-    </section>
+Поскольку flexbox - это целый модуль, а не одно свойство, он включает в себя множество вещей, включая весь набор свойств. Некоторые из них предназначены для установки на контейнере (родительский элемент, известный как «гибкий контейнер»), тогда как другие предназначены для установки на дочерние элементы (так называемые «гибкие элементы»).
 
-    <footer class="footer">
-      <div class="footer__content">
-        <div class="container">
-          <div class="footer__inner">
-            <div class="footer__info">
-              <div class="footer__title">
-                Комплексное закрытие предприятия
-              </div>
-              <div class="footer__text">
-                Далеко-далеко, за словесными горами в стране гласных и согласных
-                живут рыбные тексты. Агентство ему свой текстов великий, раз
-                вопроса первую имени продолжил напоивший сих живет, собрал
-                дороге заголовок мир себя города злых.
-              </div>
-              <a
-                data-fancybox
-                data-src="#modal"
-                href="javascript:;"
-                class="header__btn"
-                href="#"
-              >
-                Бесплатная консультация
-              </a>
-              <ul class="footer__list">
-                <li>
-                  <a class="footer__phone" href="tel:380963092145"
-                    >+38 (096) 309 21 45</a
-                  >
-                </li>
-                <li><a href="#">layout585@gmail.com</a></li>
-                <li>
-                  <a class="footer__adress" href="#"
-                    >Гомель, ул.Карастояновой</a
-                  >
-                </li>
-              </ul>
-            </div>
-            <div class="footer__map">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2430.9308216164386!2d30.958154115805293!3d52.46228027980325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46d46bd9b521115b%3A0xe09d2c5dd80c2e83!2z0YPQuy4g0JrQsNGA0LDRgdGC0L7Rj9C90L7QstC-0LksINCT0L7QvNC10LvRjA!5e0!3m2!1sru!2sby!4v1588776445266!5m2!1sru!2sby"
-                width="600"
-                height="450"
-                frameborder="0"
-                style="border: 0;"
-                allowfullscreen=""
-                aria-hidden="false"
-                tabindex="0"
-              ></iframe>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="footer__copy">
-        <div class="container">
-          <div class="copy__text">
-            © 2017 Template by Anastasia Shaposhnyk. Все права защищены.
-          </div>
-        </div>
-      </div>
-    </footer>
+Если «обычная» компоновка основана на блочном и линейном направлениях потока, гибкая компоновка основана на «направлениях гибкого потока». Пожалуйста, посмотрите на этот рисунок из спецификации, объясняя основную идею гибкого макета.
+<figure class="wp-block-image is-resized"><img src="https://css-tricks.com/wp-content/uploads/2018/11/00-basic-terminology.svg" alt="Диаграмма, объясняющая терминологию flexbox. Размер по главной оси flexbox называется основным размером, другое направление - поперечный размер. Эти размеры имеют главное начало, основной конец, поперечный старт и поперечный конец." width="550" height="184" data-lazy-src="https://css-tricks.com/wp-content/uploads/2018/11/00-basic-terminology.svg?is-pending-load=1" srcset="https://css-tricks.com/data:image/gif;base64,https://css-tricks.com/R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class=" jetpack-lazy-image"><noscript><img src="https://css-tricks.com/wp-content/uploads/2018/11/00-basic-terminology.svg" alt="Диаграмма, объясняющая терминологию flexbox. Размер по главной оси flexbox называется основным размером, другое направление - поперечный размер. Эти размеры имеют главное начало, основной конец, поперечный старт и поперечный конец." width="550" height="184"></noscript></figure>
+Элементы будут размещены в соответствии с <code>main axis</code> (от <code>main-start</code> в <code>main-end</code>) или поперечная ось (от <code>cross-start</code> в <code>cross-end</code>).
+<ul>
+ 	<li><strong>главная ось</strong> - Основная ось гибкого контейнера - это основная ось, вдоль которой выкладываются гибкие элементы. Осторожно, оно не обязательно горизонтальное; это зависит от <code>flex-direction</code> собственность (см. ниже).</li>
+ 	<li><strong>главный старт | Основной конец</strong> - Гибкие элементы помещаются в контейнер, начиная с основного и заканчивая основным.</li>
+ 	<li><strong>основной размер</strong> - Ширина или высота гибкого элемента, в зависимости от того, что находится в основном измерении, является основным размером элемента. Свойство основного размера элемента flex - это свойство «ширина» или «высота», в зависимости от того, что находится в основном измерении.</li>
+ 	<li><strong>поперечная ось</strong> - Ось, перпендикулярная главной оси, называется поперечной осью. Его направление зависит от направления главной оси.</li>
+ 	<li><strong>кросс-старт | кросс-конец</strong> - Гибкие линии заполнены предметами и помещены в контейнер, начиная со стороны поперечного начала гибкого контейнера и по направлению к поперечной стороне.</li>
+ 	<li><strong>размер креста</strong> - Ширина или высота гибкого элемента, который находится в поперечном измерении, является поперечным размером элемента. Свойство размера креста имеет значение «ширина» или «высота», которое находится в поперечном измерении.</li>
+</ul>
+</div>
+</div>
+<div class="wp-block-columns">
+<div class="wp-block-column grid-column-parent">
+<figure class="wp-block-image size-large is-resized"><img src="https://css-tricks.com/wp-content/uploads/2018/10/01-container.svg" alt="" class="wp-image-277981 jetpack-lazy-image" width="350" height="119" data-lazy-src="https://css-tricks.com/wp-content/uploads/2018/10/01-container.svg?is-pending-load=1" srcset="https://css-tricks.com/data:image/gif;base64,https://css-tricks.com/R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><noscript><img src="https://css-tricks.com/wp-content/uploads/2018/10/01-container.svg" alt="" class="wp-image-277981" width="350" height="119"></noscript></figure>
+<h2>Свойства для родителей
+(гибкий контейнер)</h2>
+<div class="wp-block-group">
+<div class="wp-block-group__inner-container">
+<h4>дисплей</h4>
+Это определяет гибкий контейнер; встроенный или блок в зависимости от заданного значения. Это позволяет гибкий контекст для всех его прямых потомков.
+<pre rel="CSS" class="wp-block-csstricks-code-block language-css" data-line=""><code markup="tt">.container {
+  display: flex; /* or inline-flex */
+}</code></pre>
+Обратите внимание, что столбцы CSS не влияют на гибкий контейнер.
 
-    <div id="modal">
-      <form>
-        <input type="text" placeholder="Ваше имя" />
-        <input type="text" placeholder="Ваш телефон" />
-        <input type="submit" value="Отправить" />
-      </form>
-    </div>
+</div>
+</div>
+<div class="wp-block-group">
+<div class="wp-block-group__inner-container">
+<h4>Flex-направление</h4>
+<figure class="wp-block-image is-resized"><img src="https://css-tricks.com/wp-content/uploads/2018/10/flex-direction.svg" alt="показаны четыре возможных значения направления гибкого направления: сверху вниз, снизу вверх, справа налево и слева направо" width="350" data-lazy-src="https://css-tricks.com/wp-content/uploads/2018/10/flex-direction.svg?is-pending-load=1" srcset="https://css-tricks.com/data:image/gif;base64,https://css-tricks.com/R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class=" jetpack-lazy-image"><noscript><img src="https://css-tricks.com/wp-content/uploads/2018/10/flex-direction.svg" alt="показаны четыре возможных значения направления гибкого направления: сверху вниз, снизу вверх, справа налево и слева направо" width="350"></noscript></figure>
+Это устанавливает основную ось, таким образом определяя направление гибких элементов, помещаемых в гибкий контейнер. Flexbox - это (помимо дополнительной упаковки) концепция макета в одном направлении. Думайте о гибких предметах, как о первичных раскладках в горизонтальных рядах или вертикальных столбцах.
+<pre rel="CSS" class="wp-block-csstricks-code-block language-css" data-line=""><code markup="tt">.container {
+  flex-direction: row | row-reverse | column | column-reverse;
+}</code></pre>
+<ul>
+ 	<li><code>row</code>  (по умолчанию): слева направо в <code>ltr</code>; справа налево в <code>rtl</code></li>
+ 	<li><code>row-reverse</code>: справа налево в <code>ltr</code>; слева направо в <code>rtl</code></li>
+ 	<li><code>column</code>: такой же как <code>row</code> но сверху вниз</li>
+ 	<li><code>column-reverse</code>: такой же как <code>row-reverse</code> но снизу вверх</li>
+</ul>
+</div>
+</div>
+<div class="wp-block-group">
+<div class="wp-block-group__inner-container">
+<h4>Flex-обертка</h4>
+<figure class="wp-block-image is-resized"><img src="https://css-tricks.com/wp-content/uploads/2018/10/flex-wrap.svg" alt="два ряда коробок, первый наматывается на второй" width="350" data-lazy-src="https://css-tricks.com/wp-content/uploads/2018/10/flex-wrap.svg?is-pending-load=1" srcset="https://css-tricks.com/data:image/gif;base64,https://css-tricks.com/R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class=" jetpack-lazy-image"><noscript><img src="https://css-tricks.com/wp-content/uploads/2018/10/flex-wrap.svg" alt="два ряда коробок, первый наматывается на второй" width="350"></noscript></figure>
+По умолчанию все элементы Flex будут помещаться на одной строке. Вы можете изменить это и позволить обернуть элементы по мере необходимости этим свойством.
+<pre rel="CSS" class="wp-block-csstricks-code-block language-css" data-line=""><code markup="tt">.container {
+  flex-wrap: nowrap | wrap | wrap-reverse;
+}</code></pre>
+<ul>
+ 	<li><code>nowrap</code>  (по умолчанию): все гибкие элементы будут в одной строке</li>
+ 	<li><code>wrap</code>: flex-элементы будут перенесены на несколько строк сверху вниз.</li>
+ 	<li><code>wrap-reverse</code>: flex-элементы будут перенесены на несколько строк снизу вверх.</li>
+</ul>
+Есть некоторые <a href="https://css-tricks.com/almanac/properties/f/flex-wrap/">визуальные демонстрации <code>flex-wrap</code> Вот</a>,
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="js/jquery.fancybox.min.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script src="js/jquery.formstyler.min.js"></script>
-    <script src="js/main.js"></script>
-  </body>
-</html>
+</div>
+</div>
+<div class="wp-block-group">
+<div class="wp-block-group__inner-container">
+<h4>Flex-поток</h4>
+Это сокращение для <code>flex-direction</code> а также <code>flex-wrap</code> свойства, которые вместе определяют основную и поперечную оси гибкого контейнера. Значением по умолчанию является <code>row nowrap</code>,
+<pre rel="CSS" class="wp-block-csstricks-code-block language-css" data-line=""><code markup="tt">.container {
+  flex-flow: column wrap;
+}</code></pre>
+</div>
+</div>
+<div class="wp-block-group">
+<div class="wp-block-group__inner-container">
+<h4>обосновывать-контент</h4>
+<figure class="wp-block-image is-resized"><img src="https://css-tricks.com/wp-content/uploads/2018/10/justify-content.svg" alt="гибкие элементы в гибком контейнере, демонстрирующие различные варианты интервалов" width="350" data-lazy-src="https://css-tricks.com/wp-content/uploads/2018/10/justify-content.svg?is-pending-load=1" srcset="https://css-tricks.com/data:image/gif;base64,https://css-tricks.com/R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class=" jetpack-lazy-image"><noscript><img src="https://css-tricks.com/wp-content/uploads/2018/10/justify-content.svg" alt="гибкие элементы в гибком контейнере, демонстрирующие различные варианты интервалов" width="350"></noscript></figure>
+Это определяет выравнивание вдоль главной оси. Это помогает распределить дополнительный остаток свободного пространства, когда либо все гибкие элементы в строке негибкие, либо гибкие, но достигли своего максимального размера. Это также обеспечивает некоторый контроль над выравниванием элементов, когда они переполняют линию.
+<pre rel="CSS" class="wp-block-csstricks-code-block language-css" data-line=""><code markup="tt">.container {
+  justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left | right ... + safe | unsafe;
+}</code></pre>
+<ul>
+ 	<li><code>flex-start</code>  (по умолчанию): элементы упакованы в направлении начала гибкого направления.</li>
+ 	<li><code>flex-end</code>: элементы упакованы ближе к концу гибкого направления.</li>
+ 	<li><code>start</code>: предметы упакованы к началу <code>writing-mode</code> направление.</li>
+ 	<li><code>end</code>: предметы упакованы в конце <code>writing-mode</code> направление.</li>
+ 	<li><code>left</code>: элементы упакованы по левому краю контейнера, если это не имеет смысла с <code>flex-direction</code>то это ведет себя как <code>start</code>,</li>
+ 	<li><code>right</code>: предметы упакованы к правому краю контейнера, если это не имеет смысла с <code>flex-direction</code>то это ведет себя как <code>start</code>,</li>
+ 	<li><code>center</code>: пункты центрированы вдоль линии</li>
+ 	<li><code>space-between</code>: предметы равномерно распределены по линии; первый элемент находится в начале строки, последний элемент в конце строки</li>
+ 	<li><code>space-around</code>: предметы равномерно распределены по линии с одинаковым пространством вокруг них. Обратите внимание, что визуально пробелы не равны, поскольку все элементы имеют одинаковое пространство с обеих сторон. Первый элемент будет иметь одну единицу пространства напротив края контейнера, но две единицы пространства между следующим элементом, потому что у следующего элемента есть свой собственный интервал, который применяется.</li>
+ 	<li><code>space-evenly</code>: элементы распределяются так, чтобы расстояние между любыми двумя элементами (и расстояние до краев) было одинаковым.</li>
+</ul>
+Обратите внимание, что поддержка браузером этих значений нюансов. Например, <code>space-between</code> никогда не получал поддержки от некоторых версий Edge, а start / end / left / right еще нет в Chrome. MDN <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content">имеет подробные графики</a>, Самые безопасные значения <code>flex-start</code>, <code>flex-end</code>, а также <code>center</code>,
+
+Есть также два дополнительных ключевых слова, которые вы можете связать с этими значениями: <code>safe</code> а также <code>unsafe</code>, С помощью <code>safe</code> гарантирует, что как бы вы ни занимались этим типом позиционирования, вы не можете выдвинуть элемент таким образом, чтобы он отображался за пределами экрана (например, сверху), чтобы контент тоже не мог прокручиваться (это называется «потеря данных»).
+
+</div>
+</div>
+<div class="wp-block-group">
+<div class="wp-block-group__inner-container">
+<h4 id="prop-align-items">ALIGN-элементы</h4>
+<figure class="wp-block-image is-resized"><img src="https://css-tricks.com/wp-content/uploads/2018/10/align-items.svg" alt="демонстрация различных вариантов выравнивания, например, все блоки, прикрепленные к верхней части гибкого родителя, к нижней части, вытянутые или вдоль базовой линии" width="350" data-lazy-src="https://css-tricks.com/wp-content/uploads/2018/10/align-items.svg?is-pending-load=1" srcset="https://css-tricks.com/data:image/gif;base64,https://css-tricks.com/R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class=" jetpack-lazy-image"><noscript><img src="https://css-tricks.com/wp-content/uploads/2018/10/align-items.svg" alt="демонстрация различных вариантов выравнивания, например, все блоки, прикрепленные к верхней части гибкого родителя, к нижней части, вытянутые или вдоль базовой линии" width="350"></noscript></figure>
+Это определяет поведение по умолчанию для того, как гибкие элементы располагаются вдоль <strong>поперечная ось</strong> на текущей строке. Думайте об этом как <code>justify-content</code> версия для поперечной оси (перпендикулярно главной оси).
+<pre rel="CSS" class="wp-block-csstricks-code-block language-css" data-line=""><code markup="tt">.container {
+  align-items: stretch | flex-start | flex-end | center | baseline | first baseline | last baseline | start | end | self-start | self-end + ... safe | unsafe;
+}</code></pre>
+<ul>
+ 	<li><code>stretch</code>  (по умолчанию): растянуть, чтобы заполнить контейнер (все еще соблюдайте min-width / max-width)</li>
+ 	<li><code>flex-start</code>  / <code>start</code> / <code>self-start</code>: элементы размещаются в начале поперечной оси. Разница между ними невелика и заключается в уважении <code>flex-direction</code> правила или <code>writing-mode</code> правила.</li>
+ 	<li><code>flex-end</code>  / <code>end</code> / <code>self-end</code>: элементы размещаются в конце поперечной оси. Разница опять-таки тонкая и заключается в уважении <code>flex-direction</code> правила против <code>writing-mode</code> правила.</li>
+ 	<li><code>center</code>: элементы расположены по центру поперечной оси</li>
+ 	<li><code>baseline</code>: элементы выровнены, такие как их базовые линии</li>
+</ul>
+<code>safe</code> а также <code>unsafe</code> ключевые слова-модификаторы могут использоваться вместе со всеми остальными этими ключевыми словами (хотя примечание <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/align-items">поддержка браузера</a>) и помочь вам предотвратить выравнивание элементов таким образом, чтобы содержимое стало недоступным.
+
+</div>
+</div>
+<div class="wp-block-group">
+<div class="wp-block-group__inner-container">
+<h4>ALIGN-контент</h4>
+<figure class="wp-block-image is-resized"><img src="https://css-tricks.com/wp-content/uploads/2018/10/align-content.svg" alt="примеры свойства align-content, в котором группа элементов кластеризована сверху или снизу или вытянута, чтобы заполнить пространство, или имеет интервал." width="350" data-lazy-src="https://css-tricks.com/wp-content/uploads/2018/10/align-content.svg?is-pending-load=1" srcset="https://css-tricks.com/data:image/gif;base64,https://css-tricks.com/R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class=" jetpack-lazy-image"><noscript><img src="https://css-tricks.com/wp-content/uploads/2018/10/align-content.svg" alt="примеры свойства align-content, в котором группа элементов кластеризована сверху или снизу или вытянута, чтобы заполнить пространство, или имеет интервал." width="350"></noscript></figure>
+Это выравнивает линии гибкого контейнера в пределах, когда есть дополнительное пространство на поперечной оси, подобно тому, как <code>justify-content</code> выравнивает отдельные элементы в пределах главной оси.
+
+<strong>Замечания:</strong> это свойство не действует, когда есть только одна строка изгибаемых элементов.
+<pre rel="CSS" class="wp-block-csstricks-code-block language-css" data-line=""><code markup="tt">.container {
+  align-content: flex-start | flex-end | center | space-between | space-around | space-evenly | stretch | start | end | baseline | first baseline | last baseline + ... safe | unsafe;
+}</code></pre>
+<ul>
+ 	<li><code>flex-start</code>  / <code>start</code>: предметы, упакованные до начала контейнера. (Больше поддерживается) <code>flex-start</code> чтит <code>flex-direction</code> пока <code>start</code> чтит <code>writing-mode</code> направление.</li>
+ 	<li><code>flex-end</code>  / <code>end</code>: предметы, упакованные до конца контейнера. (Больше поддержки) <code>flex-end</code> чтит <code>flex-direction</code> в то время как конец чтит <code>writing-mode</code> направление.</li>
+ 	<li><code>center</code>: предметы по центру в контейнере</li>
+ 	<li><code>space-between</code>: предметы равномерно распределены; первая строка находится в начале контейнера, а последняя - в конце</li>
+ 	<li><code>space-around</code>: предметы равномерно распределены с равным пространством вокруг каждой строки</li>
+ 	<li><code>space-evenly</code>: предметы равномерно распределены вокруг</li>
+ 	<li><code>stretch</code>  (по умолчанию): линии растягиваются, чтобы занять оставшееся пространство</li>
+</ul>
+<code>safe</code> а также <code>unsafe</code> ключевые слова-модификаторы могут использоваться вместе со всеми остальными этими ключевыми словами (хотя примечание <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/align-items">поддержка браузера</a>) и помочь вам предотвратить выравнивание элементов таким образом, чтобы содержимое стало недоступным.
+
+</div>
+</div>
+</div>
+<div class="wp-block-column flex-column-children">
+<figure class="wp-block-image size-large is-resized"><img src="https://css-tricks.com/wp-content/uploads/2018/10/02-items.svg" alt="" class="wp-image-277982 jetpack-lazy-image" width="350" height="119" data-lazy-src="https://css-tricks.com/wp-content/uploads/2018/10/02-items.svg?is-pending-load=1" srcset="https://css-tricks.com/data:image/gif;base64,https://css-tricks.com/R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><noscript><img src="https://css-tricks.com/wp-content/uploads/2018/10/02-items.svg" alt="" class="wp-image-277982" width="350" height="119"></noscript></figure>
+<h2>Недвижимость для детей
+(гибкие элементы)</h2>
+<div class="wp-block-group">
+<div class="wp-block-group__inner-container">
+<h4>приказ</h4>
+<figure class="wp-block-image is-resized"><img src="https://css-tricks.com/wp-content/uploads/2018/10/order.svg" alt="Диаграмма, показывающая порядок flexbox. Контейнер с элементами 1 1 1 2 3, -1 1 2 5 и 2 2 99." width="350" height="282" data-lazy-src="https://css-tricks.com/wp-content/uploads/2018/10/order.svg?is-pending-load=1" srcset="https://css-tricks.com/data:image/gif;base64,https://css-tricks.com/R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class=" jetpack-lazy-image"><noscript><img src="https://css-tricks.com/wp-content/uploads/2018/10/order.svg" alt="Диаграмма, показывающая порядок flexbox. Контейнер с элементами 1 1 1 2 3, -1 1 2 5 и 2 2 99." width="350" height="282"></noscript></figure>
+По умолчанию гибкие элементы располагаются в исходном порядке. Однако <code>order</code> Свойство управляет порядком их появления в контейнере flex.
+<pre rel="CSS" class="wp-block-csstricks-code-block language-css" data-line=""><code markup="tt">.item {
+  order: 5; /* default is 0 */
+}</code></pre>
+</div>
+</div>
+<div class="wp-block-group">
+<div class="wp-block-group__inner-container">
+<h4>прогибается вырастали</h4>
+<figure class="wp-block-image is-resized"><img src="https://css-tricks.com/wp-content/uploads/2018/10/flex-grow.svg" alt="две строки элементов, первая имеет все элементы одинакового размера с одинаковыми числами сгибания-растяжения, вторая с центральным элементом в два раза большей ширины, поскольку его значение равно 2 вместо 1." width="350" data-lazy-src="https://css-tricks.com/wp-content/uploads/2018/10/flex-grow.svg?is-pending-load=1" srcset="https://css-tricks.com/data:image/gif;base64,https://css-tricks.com/R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class=" jetpack-lazy-image"><noscript><img src="https://css-tricks.com/wp-content/uploads/2018/10/flex-grow.svg" alt="две строки элементов, первая имеет все элементы одинакового размера с одинаковыми числами сгибания-растяжения, вторая с центральным элементом в два раза большей ширины, поскольку его значение равно 2 вместо 1." width="350"></noscript></figure>
+Это определяет способность гибкого элемента расти в случае необходимости. Он принимает значение без единицы, которое служит пропорцией. Он определяет, какое количество доступного пространства внутри гибкого контейнера должно занимать элемент.
+
+Если все предметы имеют <code>flex-grow</code> При значении 1 оставшееся пространство в контейнере будет распределено одинаково для всех дочерних элементов. Если один из дочерних элементов имеет значение 2, оставшееся пространство займет в два раза больше места, чем остальные (или попытается, по крайней мере).
+<pre rel="CSS" class="wp-block-csstricks-code-block language-css" data-line=""><code markup="tt">.item {
+  flex-grow: 4; /* default 0 */
+}</code></pre>
+Отрицательные числа недействительны.
+
+</div>
+</div>
+<div class="wp-block-group">
+<div class="wp-block-group__inner-container">
+<h4>Flex-термоусадочная</h4>
+Это определяет способность гибкого элемента сжиматься при необходимости.
+<pre rel="CSS" class="wp-block-csstricks-code-block language-css" data-line=""><code markup="tt">.item {
+  flex-shrink: 3; /* default 1 */
+}</code></pre>
+Отрицательные числа недействительны.
+
+</div>
+</div>
+<div class="wp-block-group">
+<div class="wp-block-group__inner-container">
+<h4>Flex-основа</h4>
+Это определяет размер элемента по умолчанию перед распределением оставшегося пространства. Это может быть длина (например, 20%, 5rem и т. Д.) Или ключевое слово. <code>auto</code> Ключевое слово означает «посмотрите на мою ширину или высоту» (что было временно сделано <code>main-size</code> ключевое слово пока не устарело). <code>content</code> Ключевое слово означает «изменить его размер в зависимости от содержания элемента» - это ключевое слово пока не поддерживается, поэтому его сложно протестировать и узнать, какие у него братья. <code>max-content</code>, <code>min-content</code>, а также <code>fit-content</code> делать.
+<pre rel="CSS" class="wp-block-csstricks-code-block language-css" data-line=""><code markup="tt">.item {
+  flex-basis:  | auto; /* default auto */
+}</code></pre>
+Если установлено <code>0</code>, дополнительное пространство вокруг содержимого не учитывается. Если установлено <code>auto</code>, дополнительное пространство распределяется на основе его <code>flex-grow</code> ценность. <a href="https://www.w3.org/TR/css3-flexbox/images/rel-vs-abs-flex.svg">Смотрите этот рисунок.</a>
+
+</div>
+</div>
+<div class="wp-block-group">
+<div class="wp-block-group__inner-container">
+<h4>сгибать</h4>
+Это сокращение для <code>flex-grow,</code> <code>flex-shrink</code>  а также <code>flex-basis</code> вместе взятые. Второй и третий параметры (<code>flex-shrink</code> а также <code>flex-basis</code>) не являются обязательными. По умолчанию <code>0 1 auto</code>, но если вы установите его с одним числовым значением, это похоже на <code> 1 0</code>,
+<pre rel="CSS" class="wp-block-csstricks-code-block language-css" data-line=""><code markup="tt">.item {
+  flex: none | [ &lt;'flex-grow'&gt; &lt;'flex-shrink'&gt;? || &lt;'flex-basis'&gt; ]
+}</code></pre>
+<strong>Рекомендуется использовать это сокращенное свойство</strong> а не устанавливать отдельные свойства. Сокращение устанавливает другие значения разумно.
+
+</div>
+</div>
+<div class="wp-block-group">
+<div class="wp-block-group__inner-container">
+<h4>Align-я</h4>
+<figure class="wp-block-image is-resized"><img src="https://css-tricks.com/wp-content/uploads/2018/10/align-self.svg" alt="Один элемент со значением align-self размещается вдоль нижней части гибкого родителя, а не сверху, где находятся все остальные элементы." width="350" data-lazy-src="https://css-tricks.com/wp-content/uploads/2018/10/align-self.svg?is-pending-load=1" srcset="https://css-tricks.com/data:image/gif;base64,https://css-tricks.com/R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class=" jetpack-lazy-image"><noscript><img src="https://css-tricks.com/wp-content/uploads/2018/10/align-self.svg" alt="Один элемент со значением align-self размещается вдоль нижней части гибкого родителя, а не сверху, где находятся все остальные элементы." width="350"></noscript></figure>
+Это позволяет выравнивание по умолчанию (или указанное <code>align-items</code>) быть переопределенным для отдельных элементов flex.
+
+Пожалуйста, посмотрите <code>align-items</code> объяснение, чтобы понять доступные значения.
+<pre rel="CSS" class="wp-block-csstricks-code-block language-css" data-line=""><code markup="tt">.item {
+  align-self: auto | flex-start | flex-end | center | baseline | stretch;
+}</code></pre>
+Обратите внимание, что <code>float</code>, <code>clear</code> а также <code>vertical-align</code> не влияет на гибкий элемент.
+
+</div>
+</div>
+</div>
+</div>
+<h3><a href="https://css-tricks.com/#flexbox-examples">Примеры</a></h3>
+<div class="wp-block-group collapsible-section" id="flexbox-examples">
+<div class="wp-block-group__inner-container">
+
+Давайте начнем с очень простого примера, решающего почти ежедневную проблему: идеальное центрирование. Это не может быть проще, если вы используете flexbox.
+<pre rel="CSS" class="wp-block-csstricks-code-block language-css" data-line=""><code markup="tt">.parent {
+  display: flex;
+  height: 300px; /* Or whatever */
+}
+
+.child {
+  width: 100px;  /* Or whatever */
+  height: 100px; /* Or whatever */
+  margin: auto;  /* Magic! */
+}</code></pre>
+Это зависит от того факта, что для <code>auto</code> в гибком контейнере поглощают дополнительное пространство. Так что установка вертикального поля <code>auto</code> сделает изделие идеально центрированным по обеим осям.
+
+Теперь давайте использовать еще несколько свойств. Рассмотрим список из 6 предметов, все с фиксированными размерами, но могут быть авторазмера. Мы хотим, чтобы они были равномерно распределены по горизонтальной оси, чтобы при изменении размера браузера все масштабировалось хорошо и без медиазапросов.
+<pre rel="CSS" class="wp-block-csstricks-code-block language-css" data-line=""><code markup="tt">.flex-container {
+  /* We first create a flex layout context */
+  display: flex;
+
+  /* Then we define the flow direction 
+     and if we allow the items to wrap 
+   * Remember this is the same as:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+  flex-flow: row wrap;
+
+  /* Then we define how is distributed the remaining space */
+  justify-content: space-around;
+}</code></pre>
+Выполнено. Все остальное - это просто стайлинг. Ниже ручка с этим примером. Обязательно зайдите в CodePen и попробуйте изменить размеры своих окон, чтобы увидеть, что происходит.
+
+<iframe id="cp_embed_EKEYob" src="https://codepen.io/anon/embed/EKEYob?height=450&amp;theme-id=1&amp;slug-hash=EKEYob&amp;default-tab=result" height="450" scrolling="no" frameborder="0" allowfullscreen="" allowpaymentrequest="" name="CodePen Embed EKEYob" title="CodePen Embed EKEYob" class="cp_embed_iframe" style="width:100%;overflow:hidden">CodePen Embed Fallback</iframe>
+
+Давайте попробуем что-нибудь еще. Представьте, что у нас есть выровненный по правому краю элемент навигации в самом верху нашего веб-сайта, но мы хотим, чтобы он был сосредоточен на экранах среднего размера и на одной колонке на небольших устройствах. Достаточно просто.
+<pre rel="CSS" class="wp-block-csstricks-code-block language-css" data-line=""><code markup="tt">/* Large */
+.navigation {
+  display: flex;
+  flex-flow: row wrap;
+  /* This aligns items to the end line on main-axis */
+  justify-content: flex-end;
+}
+
+/* Medium screens */
+@media all and (max-width: 800px) {
+  .navigation {
+    /* When on medium sized screens, we center it by evenly distributing empty space around items */
+    justify-content: space-around;
+  }
+}
+
+/* Small screens */
+@media all and (max-width: 500px) {
+  .navigation {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+  }
+}</code></pre>
+<iframe id="cp_embed_YqaKYR" src="https://codepen.io/anon/embed/YqaKYR?height=250&amp;theme-id=1&amp;slug-hash=YqaKYR&amp;default-tab=result" height="250" scrolling="no" frameborder="0" allowfullscreen="" allowpaymentrequest="" name="CodePen Embed YqaKYR" title="CodePen Embed YqaKYR" class="cp_embed_iframe" style="width:100%;overflow:hidden">CodePen Embed Fallback</iframe>
+
+Давайте попробуем что-то еще лучше, играя с гибкостью гибких предметов! Как насчет первого в мобильном формате 3-колоночного макета с полным и верхним колонтитулом. И не зависит от исходного порядка.
+<pre rel="CSS" class="wp-block-csstricks-code-block language-css" data-line=""><code markup="tt">.wrapper {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+/* We tell all items to be 100% width, via flex-basis */
+.wrapper &gt; * {
+  flex: 1 100%;
+}
+
+/* We rely on source order for mobile-first approach
+ * in this case:
+ * 1. header
+ * 2. article
+ * 3. aside 1
+ * 4. aside 2
+ * 5. footer
+ */
+
+/* Medium screens */
+@media all and (min-width: 600px) {
+  /* We tell both sidebars to share a row */
+  .aside { flex: 1 auto; }
+}
+
+/* Large screens */
+@media all and (min-width: 800px) {
+  /* We invert order of first sidebar and main
+   * And tell the main element to take twice as much width as the other two sidebars 
+   */
+  .main { flex: 2 0px; }
+  .aside-1 { order: 1; }
+  .main    { order: 2; }
+  .aside-2 { order: 3; }
+  .footer  { order: 4; }
+}</code></pre>
+<iframe id="cp_embed_vWEMWw" src="https://codepen.io/anon/embed/vWEMWw?height=350&amp;theme-id=1&amp;slug-hash=vWEMWw&amp;default-tab=result" height="350" scrolling="no" frameborder="0" allowfullscreen="" allowpaymentrequest="" name="CodePen Embed vWEMWw" title="CodePen Embed vWEMWw" class="cp_embed_iframe" style="width:100%;overflow:hidden">CodePen Embed Fallback</iframe>
+
+</div>
+</div>
+<h3><a href="https://css-tricks.com/#flexbox-sass">Префикс Flexbox</a></h3>
+<div class="wp-block-group collapsible-section" id="flexbox-sass">
+<div class="wp-block-group__inner-container">
+
+Flexbox требует префикса некоторых поставщиков для поддержки большинства браузеров. Он не включает в себя предварительно добавленные свойства с префиксом поставщика, но на самом деле существуют совершенно разные имена свойств и значений. Это потому, что спецификация Flexbox со временем изменилась, создавая <a href="https://css-tricks.com/old-flexbox-and-new-flexbox/">«Старый», «твинер» и «новый»</a> версии.
+
+Возможно, лучший способ справиться с этим - написать в новом (и окончательном) синтаксисе и запустить свой CSS через <a href="https://css-tricks.com/autoprefixer/">Autoprefixer</a>, который очень хорошо справляется с запасными вариантами.
+
+Или вот Sass <code>@mixin</code> чтобы помочь с некоторыми префиксами, которые также дают вам представление о том, что нужно сделать:
+<pre rel="SCSS" class="wp-block-csstricks-code-block language-scss" data-line=""><code markup="tt">@mixin flexbox() {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+@mixin flex($values) {
+  -webkit-box-flex: $values;
+  -moz-box-flex:  $values;
+  -webkit-flex:  $values;
+  -ms-flex:  $values;
+  flex:  $values;
+}
+
+@mixin order($val) {
+  -webkit-box-ordinal-group: $val;  
+  -moz-box-ordinal-group: $val;     
+  -ms-flex-order: $val;     
+  -webkit-order: $val;  
+  order: $val;
+}
+
+.wrapper {
+  @include flexbox();
+}
+
+.item {
+  @include flex(1 200px);
+  @include order(2);
+}</code></pre>
+</div>
+</div>
+<h3><a href="https://css-tricks.com/#flexbox-related">Связанные свойства</a></h3>
+<h3><a href="https://css-tricks.com/#flexbox-resources">Другие источники</a></h3>
+<h3><a href="https://css-tricks.com/#flexbox-bugs">ошибки</a></h3>
+<div class="wp-block-group collapsible-section" id="flexbox-bugs">
+<div class="wp-block-group__inner-container">
+
+Flexbox, конечно, не без ошибок. Лучшая коллекция из тех, что я видел, - это Филип Уолтон и Грег Уитворт. <a href="https://github.com/philipwalton/flexbugs">Flexbugs</a>, Это место с открытым исходным кодом для отслеживания всех из них, поэтому я думаю, что лучше всего просто сослаться на это.
+
+</div>
+</div>
+<h3 id="browser-support">Поддержка браузера</h3>
+Разбит по «версии» flexbox:
+<ul>
+ 	<li>(новый) означает недавний синтаксис из спецификации (например, <code>display: flex;</code>)</li>
+ 	<li>(tweener) означает странный неофициальный синтаксис с 2011 года (например, <code>display: flexbox;</code>)</li>
+ 	<li>(старый) означает старый синтаксис с 2009 года (например, <code>display: box;</code>)</li>
+</ul>
+<figure class="wp-block-table">
+<table>
+<thead>
+<tr>
+<th>Хром</th>
+<th>Сафари</th>
+<th>Fire Fox</th>
+<th>опера</th>
+<th>IE</th>
+<th>край</th>
+<th>Android</th>
+<th>IOS</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>20- (старый)
+21+ (новый)</td>
+<td>3.1+ (старый)
+6.1+ (новый)</td>
+<td>2-21 (старый)
+22+ (новый)</td>
+<td>12.1+ (новый)</td>
+<td>10 (твинер)
+11+ (новый)</td>
+<td>17+ (новый)</td>
+<td>2.1+ (старый)
+4.4+ (новый)</td>
+<td>3.2+ (старый)
+7.1+ (новый)</td>
+</tr>
+</tbody>
+</table>
+</figure>
+Браузер Blackberry 10+ поддерживает новый синтаксис.
+
+</div>
